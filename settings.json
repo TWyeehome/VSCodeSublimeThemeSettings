@@ -1,0 +1,137 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // 選取標籤
+    "editor.matchBrackets": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    // Sass 編譯設定
+    "liveSassCompile.settings.formats": [
+        {
+            // 壓縮
+            "format": "compressed",
+            // 編譯後的副檔名
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+    ],
+    // 產生 .map 檔案
+    "liveSassCompile.settings.generateMap": true,
+    // 支援 IE
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.copyOnSelection": true,
+    "explorer.confirmDelete": false,
+    "editor.selectionHighlight": false,
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "workbench.colorCustomizations": {
+        // 編輯器背景色
+        "editor.background": "#282923",
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "class": "#ffffff",
+            "function.declaration": {
+                "foreground": "#a6e22e"
+            },
+            "variable.defaultLibrary": "#66D9EF",
+            "variable.declaration": "#ffffff",
+            "variable.other.readwrite": "#ffffff",
+            "function.readonly.defaultLibrary": {
+                "foreground": "#66D9EF",
+                "fontStyle": ""
+            },
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "support.type.object.dom.js",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.readwrite.js",
+                    "punctuation.separator.key-value.js",
+                    "meta.delimiter.comma.js",
+                    "meta.brace.curly.litobj.js",
+                    "meta.brace.curly.js",
+                    "keyword.operator.accessor.js",
+                    "entity.name.type.instance.js",
+                    "string.unquoted.js",
+                    "meta.brace.square.js",
+                    "entity.other.attribute-name.pseudo-class.css"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.js",
+                    "entity.name.function.method.js",
+                ],
+                "settings": {
+                    "foreground": "#a6e22b"
+                }
+            },
+            {
+                "scope": [
+                    "support.type.object.console.js",
+                    "entity.name.function.js",
+                    "storage.type.function.arrow.js",
+                    "support.function.console.js",
+                    "support.function.construct.output.php",
+                    "meta.method-call.with-arguments.js",
+                    "meta.function.js",
+                    "support.type.property-name.css",
+
+                ],
+                "settings": {
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php",
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [],
+                "settings": {
+                    "foreground": "#fd9622"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.global.safer.php",
+                    "punctuation.section.array.begin.php",
+                    "punctuation.section.array.end.php",
+                ],
+                "settings": {
+                    "foreground": "#e7db74"
+                }
+            }
+        ],
+    },
+    "extensions.autoUpdate": false,
+    "editor.renderLineHighlight": "gutter",
+    // 背景主題
+    "workbench.colorTheme": "Sublime Monokai Adaptive",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 1,
+}
