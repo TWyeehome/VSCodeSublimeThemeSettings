@@ -1,0 +1,167 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // 雙重點擊選取時包含 $ 字號 "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.matchBrackets": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveSassCompile.settings.formats": [
+        {
+            // 壓縮
+            "format": "compressed",
+            // 非壓縮
+            // "format": "expanded",
+            // 編譯後的副檔名
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+    ],
+    // 排除特定檔案，不執行編譯
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    // 產生 .map 檔案
+    "liveSassCompile.settings.generateMap": false,
+    // 支援 IE
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.copyOnSelection": true,
+    "explorer.confirmDelete": false,
+    "editor.selectionHighlight": false,
+    "editor.fontSize": 16,
+    // 白色點點間隔的設定
+    "editor.renderWhitespace": "selection",
+    "editor.occurrencesHighlight": true,
+    "workbench.colorCustomizations": {
+        // 選取變數的設定
+        "editor.selectionHighlightBackground": "#292723",
+        "editor.selectionHighlightBorder": "#b8b3b2",
+        "editor.wordHighlightStrongBackground": "#48473d",
+        "editor.wordHighlightStrongBorder": "#282923",
+        "editor.wordHighlightBackground": "#282923",
+        "editor.wordHighlightBorder": "#282923",
+        "editorBracketMatch.border": "#282923",
+        "editorBracketMatch.background": "#282923",
+        // 編輯器背景色
+        "editor.background": "#282923",
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "class": "#ffffff",
+            "function.declaration": {
+                "foreground": "#a6e22e"
+            },
+            "variable.defaultLibrary": "#66D9EF",
+            "variable.declaration": "#ffffff",
+            "variable.other.readwrite": "#ffffff",
+            "function.readonly.defaultLibrary": {
+                "foreground": "#66D9EF",
+                "fontStyle": ""
+            },
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "support.type.object.dom.js",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.arguments.begin.bracket.round.php",
+                    "punctuation.definition.arguments.end.bracket.round.php",
+                    "punctuation.section.array.begin.php",
+                    "punctuation.section.array.end.php",
+                    "variable.other.readwrite.js",
+                    "punctuation.separator.key-value.js",
+                    "meta.delimiter.comma.js",
+                    "meta.brace.curly.litobj.js",
+                    "meta.brace.curly.js",
+                    "keyword.operator.accessor.js",
+                    "entity.name.type.instance.js",
+                    "string.unquoted.js",
+                    "meta.brace.square.js",
+                    "entity.other.attribute-name.pseudo-class.css"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.js",
+                    "entity.name.function.method.js",
+                ],
+                "settings": {
+                    "foreground": "#a6e22b"
+                }
+            },
+            {
+                "scope": [
+                    "support.type.object.console.js",
+                    "entity.name.function.js",
+                    "storage.type.function.arrow.js",
+                    "support.function.console.js",
+                    "support.function.construct.output.php",
+                    "meta.method-call.with-arguments.js",
+                    "meta.function.js",
+                    "support.type.property-name.css",
+                ],
+                "settings": {
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php",
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.global.safer.php",
+                ],
+                "settings": {
+                    "foreground": "#e7db74"
+                }
+            }
+        ],
+    },
+    "extensions.autoUpdate": false,
+    "editor.renderLineHighlight": "gutter",
+    // 背景主題
+    "workbench.colorTheme": "Sublime Monokai Adaptive",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.tree.indent": 36,
+    "editor.scrollbar.verticalScrollbarSize": 18,
+    "diffEditor.maxFileSize": 5000,
+    "editor.scrollbar.horizontalScrollbarSize": 18,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "update.mode": "none",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false
+}
